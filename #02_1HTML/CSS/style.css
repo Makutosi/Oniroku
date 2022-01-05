@@ -1,0 +1,19 @@
+/* #02_1/ 24.12.2021 */
+
+ /* Flexboxを使うとき  display: flex;*/
+ /*親要素が分かりやすいように、実線で囲む border solid*/
+ /* 子要素がくっつかないように余白を margin:10px;*/
+
+.container{
+  display: flex;
+  border: 1px solid red;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+  color: #fff;
+
+}

@@ -1,0 +1,32 @@
+/* #02_5 */
+/* 余白？？？*/
+.container{
+  display: flex;
+  border: 1px solid red;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+}
+
+.box1{
+  background-color: blue;
+  flex-grow: 1;
+
+}
+
+.box2{
+  background-color: violet;
+  flex-grow: 1;
+}
+
+.box3{
+  background-color: red;
+  flex-grow: 1;
+}
+
+.box4{
+  background-color: green;
+  flex-grow: 1;
+}

@@ -1,0 +1,27 @@
+/* #02_2 */
+/* 余白が詰まって色が並ぶ*/
+.container{
+  display: flex;
+  border: 1px solid red;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+}
+
+.box1{
+  background-color: blue;
+}
+
+.box2{
+  background-color: violet;
+}
+
+.box3{
+  background-color: red;
+}
+
+.box4{
+  background-color: green;
+}

@@ -1,0 +1,30 @@
+/* #02_3 */
+.container{
+  display: flex;
+  border: 1px solid red;
+}
+
+.item{
+  width: 100px;
+  height: 100px;
+}
+/*order: 0; 初期値*/
+.box1{
+  background-color: blue;
+  order: 4;
+}
+/* 余白？*/
+.box2{
+  background-color: violet;
+  order: 1;
+}
+
+.box3{
+  background-color: red;
+  order: 2;
+}
+
+.box4{
+  background-color: green;
+  order: 3;
+}
