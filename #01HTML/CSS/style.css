@@ -1,0 +1,24 @@
+ /* #01/ 22.12.2021 */
+ h1{
+   background-color: green;
+   color: #fff;
+ }
+ p{
+   font-size: 20px;
+   /* 上の余白10px + 文字20px  +　下の余白10px =　合計40px*/
+   /* 指定された20pxの２倍 =　行の高さ40px　*/
+   line-height: 2;
+ }
+
+ .sample01{
+   font-size: 20px;
+   color: red;
+   line-height: 1.5; /* = 30px, = 150%*/
+ }
+
+ .sample02{
+   font-size: 20px;
+   color: blue;
+   line-height: 1.7;
+   letter-spacing: 0.2em;
+ }
