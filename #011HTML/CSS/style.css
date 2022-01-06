@@ -1,0 +1,39 @@
+/* #011_first-child & last-child/ 6.1.2022 */
+/* :で区切る、最初と最後の要素にスタイルシートを効かせる*/
+li:first-child{
+  color: red;
+}
+li:last-child{
+  color: blue;
+}
+li{
+  width: 100px;
+  padding: 7px;
+  border-bottom: 1px solid gray;
+}
+/* 最後の線は要らない時、一旦線を引いて、最後の要素に線無しとする*/
+li:last-child{
+  border: none;
+}
+
+/* 何番目か措定する方法*/
+/*リストが並んでいるとき*/
+li:nth-child(5){
+  font-weight: bold;
+  color: red;
+}
+/* 偶数、奇数(odd)で指定*/
+/* (3n)３の倍数*/
+li:nth-child(even){
+  font-weight: bold;
+  color: springgreen;
+}
+/*************************************/
+/* IDテスト要素の中のｈ２の２番目に指定*/
+/*h2 とpが混ざっている時、親要素をしてから指定*/
+#test h2:nth-of-type(2){
+  color: red;
+}
+#test p:nth-of-type(4){
+  color: blue;
+}

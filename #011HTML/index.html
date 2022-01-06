@@ -1,0 +1,44 @@
+<!-- #011_first-child & last-child/ 6.1.2022 -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>#011</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1><i>first-child & last-child 疑似クラス</i></h1>
+    <h2>リストで最初と最後の要素に指定</h2>
+    <h3>li:first-child</h3>
+    <h3>li:nth-child(5)</h3>
+    <h3>li:nth-child(even)</h3>
+
+    <ul>
+      <li>list1</li>
+      <li>list2</li>
+      <li>list3</li>
+      <li>list4</li>
+      <li>list5</li>
+      <li>list6</li>
+      <li>list7</li>
+      <li>list8</li>
+    </ul>
+    <!--***********************************-->
+    <h2>h2 とpが混ざっている時、親要素をしてから指定</h2>
+    <h3>#test h2:nth-of-type(2)</h3>
+    <h3>#test p:nth-of-type(4)</h3>
+
+    <div id="test">
+      <h2>1.list</h2>
+      <p>2.list</p>
+      <h2>3.list</h2>
+      <p>4.list</p>
+      <h2>5.list</h2>
+      <p>6.list</p>
+      <h2>7.list</h2>
+      <p>8.list</p>
+
+    </div>
+
+  </body>
+</html>
