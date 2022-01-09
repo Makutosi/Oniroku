@@ -1,0 +1,25 @@
+/* #03_1　Relative/ 26.12.2021 */
+.box1{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.box2{
+  width: 180px;
+  height: 180px;
+  background-color: blue;
+  /*元(static)あった場所が空白になり、上から30px左から50px移動 */
+  position: relative;
+  top: 30px;
+  left: 50px;
+}
+.box3{
+  width: 180px;
+  height: 180px;
+  background-color: yellow;
+}
+.box4{
+  width: 180px;
+  height: 180px;
+  background-color: green;
+}

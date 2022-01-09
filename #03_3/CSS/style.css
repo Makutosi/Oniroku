@@ -1,0 +1,26 @@
+/* #03_3 Fixed/ 26.12.2021 */
+.box1{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.box2{
+  width: 180px;
+  height: 180px;
+  background-color: blue;
+  /*Absoluteと同じ、ページ全体の左上から移動
+  ページをスクロールしても動かない */
+  position: fixed;
+  top: 30px;
+  left: 50px;
+}
+.box3{
+  width: 180px;
+  height: 180px;
+  background-color: yellow;
+}
+.box4{
+  width: 180px;
+  height: 180px;
+  background-color: green;
+}

@@ -1,0 +1,25 @@
+/* #03_2 Absolute/ 26.12.2021 */
+.box1{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.box2{
+  width: 180px;
+  height: 180px;
+  background-color: blue;
+  /*元(static)あった場所が無くなり、ページ全体の左上から移動 */
+  position: absolute;
+  top: 30px;
+  left: 50px;
+}
+.box3{
+  width: 180px;
+  height: 180px;
+  background-color: yellow;
+}
+.box4{
+  width: 180px;
+  height: 180px;
+  background-color: green;
+}
