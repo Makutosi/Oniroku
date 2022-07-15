@@ -1,0 +1,42 @@
+/*Youseful_Website_sample/15.7.2022*/
+@import url(destyle.css);
+
+.container
+{
+  max-width: 1024px;
+  margin: 0auto;
+  padding: 20px;
+}
+
+.item
+{
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  margin-bottom: 20px;
+}
+
+.item:nth-child(even)
+{
+  flex-direction: row-reverse;
+}
+
+.item img
+{
+  flex-basis: 50%;
+}
+
+.item__content
+{
+  padding: 20px;
+  flex-basis: 50%;
+}
+
+@media (max-width: 640px)
+{
+  .items
+  {
+    flex-direction: column !important;
+    align-items: stretch;
+  }
+}
